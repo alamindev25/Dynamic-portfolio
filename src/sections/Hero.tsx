@@ -24,9 +24,9 @@ const Hero = () => {
           <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
            Al-Amin Islam
           </span>{" "}
-          <span className="text-lg text-indigo-500 dark:text-indigo-300 align-super opacity-80">
+          {/* <span className="text-lg text-indigo-500 dark:text-indigo-300 align-super opacity-80">
             [Alamin]
-          </span>
+          </span> */}
         </motion.h1>
 
         <motion.h2

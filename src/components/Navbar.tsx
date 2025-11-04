@@ -76,8 +76,8 @@ const Navbar = ({ terminalMode, setTerminalMode }: Props) => {
             key={terminalMode ? "terminal" : "normal"} // Force re-render on mode switch
             sequence={
               terminalMode
-                ? ["$ whoami", 2000, "visitor@aj-seven", 2000]
-                : ["aj-seven", 2000, "Developer", 2000]
+                ? ["$ whoami", 2000, "visitor@alaminsql", 2000]
+                : ["alaminsql", 2000, "Developer", 2000]
             }
             wrapper="span"
             speed={50}
@@ -94,7 +94,7 @@ const Navbar = ({ terminalMode, setTerminalMode }: Props) => {
         <div className="flex p-2 border border-gray-400 dark:border-gray-600 rounded-full items-center gap-4">
           {/* Theme Toggle - Hidden in Terminal Mode */}
           <a
-            href="https://github.com/aj-seven/aj-seven.me"
+            href="https://github.com/alaminsql"
             target="_blank"
             title="Source Code"
           >

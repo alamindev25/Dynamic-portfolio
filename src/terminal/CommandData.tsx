@@ -22,9 +22,9 @@ export const commandData: Record<string, React.ReactNode> = {
           className="h-32 w-30 rounded-full border border-green-500"
         />
         <div>
-          <div className="text-lg font-bold">Hi! I'm Aj7</div>
+          <div className="text-lg font-bold">Hi! I'm Al-amin Islam</div>
           <div className="text-sm text-green-300">
-            Aspiring Full Stack Developer
+            Aspiring  Backend Developer
           </div>
           <div className="text-sm flex flex-col gap-2 text-muted-foreground sm:flex-row sm:items-center sm:gap-4">
             <span className="font-semibold flex flex-row items-center gap-1">
@@ -46,7 +46,7 @@ export const commandData: Record<string, React.ReactNode> = {
                 rel="noopener noreferrer"
                 className="hover:underline text-primary font-bold"
               >
-                Al-amin (Aj7)
+                Al-amin Islam
               </a>
             </span>
           </div>
@@ -55,15 +55,14 @@ export const commandData: Record<string, React.ReactNode> = {
       <div>
         I'm Alamin, a student at{" "}
         <a
-          href="https://drsgiet.ac.in/"
+          href="https://www.green.edu.bd/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-primary font-bold hover:underline"
         >
-          Dr. SGIT
+          Green University of Bangladesh
         </a>
-        , a electronics and tech enthusiast. I'm currently learning web
-        development and looking forward to becoming a full stack developer.
+        ,  a Computer Science and Engineering . I'm a Passionate Python developer skilled in Django & Django REST Framework, building secure, scalable web apps. Proficient in REST API design, database management, and cloud deployment, delivering clean, high-performance solutions.
       </div>
     </div>
   ),

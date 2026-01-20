@@ -1,8 +1,10 @@
 import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import TerminalMode from "./terminal/TerminalMode";
 import GlobalBackground from "./components/Background";
 import BottomNavBar from "./components/BottomNavBar";
+import ProjectDetail from "./pages/ProjectDetail";
 
 const App = () => {
   const [activeSection, setActiveSection] = useState("");
@@ -18,11 +20,19 @@ const App = () => {
 
       {/* Main View Switch */}
       {!terminalMode ? (
-        !activeSection ? (
-          <BottomNavBar />
-        ) : (
-          <></>
-        )
+        <Routes>
+          {/* Project Detail Route */}
+          <Route path="/project/:projectName" element={<ProjectDetail />} />
+
+          {/* Main Navigation Routes */}
+          <Route path="*" element={
+            !activeSection ? (
+              <BottomNavBar />
+            ) : (
+              <></>
+            )
+          } />
+        </Routes>
       ) : (
         <TerminalMode />
       )}

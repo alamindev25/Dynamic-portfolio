@@ -111,6 +111,41 @@ export const contactItems = [
 
 export const projectData = [
   {
+    name: "HisebWala - Smart Accounting App",
+    description: `📝 Project Overview Backend Python
+
+Hisebwala is a backend-driven financial management system designed to support accounting and business operations for livestock and small farm businesses in Bangladesh.
+As a Backend Python Developer, I designed and implemented the complete server-side architecture responsible for business logic, secure data processing, and API services consumed by client applications.
+🎯 Backend Project Objective
+Develop a robust, scalable, and secure backend system for financial data management
+Handle complex accounting logic, profit/loss calculations, and transaction validation
+Provide RESTful APIs for seamless integration with any frontend or client application
+Ensure data security, consistency, and performance
+
+⭐ Backend Responsibilities & Features
+
+Designed and developed RESTful APIs for:
+
+Sales, expenses, investments, and loss management
+
+Product and inventory tracking
+
+Customer accounts, billing, and payment history
+
+Implemented secure authentication and authorization using JWT
+
+Built automated financial calculation engines for profit, loss, and balance tracking
+Designed normalized database schemas and optimized ORM queries
+Integrated payment gateway APIs for secure financial transactions
+Implemented data validation, error handling, and logging
+Ensured scalable and maintainable backend architecture
+`,
+    tech: ["Django", "Django REST Framework", "PostgreSQL", "JWT Authentication", "Firebase", "Payment Gateway API", "Python"],
+    github: "",
+    category: "Backend",
+    images: ["/assets/hisebwala-screens.png", "/assets/hisebwala-logo.png"]
+  },
+  {
     name: "Ecommerce website",
     description: "Track what you achieve every day. One thing at a time.",
     tech: ["NextJS", "React", "TypeScript", "TailwindCSS", "MongoDB"],

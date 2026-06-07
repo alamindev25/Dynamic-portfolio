@@ -150,8 +150,8 @@ Ensured scalable and maintainable backend architecture
     description: "The Division of Justice in America is a public relations service provider committed to helping citizens of the United States who have been targeted by their government for criminal prosecution. DOJA offers citizens an online platform to publish their own personal accounts of alleged crimes they have been accused of. This includes, but is not limited to written reports, transcripts, sworn affidavits, photographs, video evidence and formal press releases intended to inform the public. ",
     tech: ["Python","Django","React", "TypeScript", "TailwindCSS", "MongoDB"],
     live: "https://dojapr.com/",
-    category: "Web",
-    images: ["/assets/hisebwala-screens.png", "/assets/hisebwala-logo.png"]
+    category: "Backend",
+    images: ["/assets/dojapr.png", "/assets/dojaper2.png"]
   },
   {
     name: "Landing Page",

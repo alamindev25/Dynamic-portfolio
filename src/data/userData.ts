@@ -146,6 +146,14 @@ Ensured scalable and maintainable backend architecture
     images: ["/assets/hisebwala-screens.png", "/assets/hisebwala-logo.png"]
   },
   {
+    name: "Orality App",
+    description: "Orality is a mobile application designed to help users improve their spoken English skills through interactive exercises, real-time feedback, and personalized learning paths. As a Backend Python Developer, I developed the server-side architecture responsible for handling user data, processing speech inputs, and providing intelligent feedback to enhance language learning outcomes.",
+    tech: ["Python","Django","Flutter",],
+  
+    category: "Backend",
+    images: ["/assets/Rdh1.png", "/assets/Rdh2.png"]
+  },
+  {
     name: "Dojaper",
     description: "The Division of Justice in America is a public relations service provider committed to helping citizens of the United States who have been targeted by their government for criminal prosecution. DOJA offers citizens an online platform to publish their own personal accounts of alleged crimes they have been accused of. This includes, but is not limited to written reports, transcripts, sworn affidavits, photographs, video evidence and formal press releases intended to inform the public. ",
     tech: ["Python","Django","React", "TypeScript", "TailwindCSS", "MongoDB"],

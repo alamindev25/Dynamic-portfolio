@@ -78,7 +78,7 @@ const Hero = () => {
           className="flex justify-center gap-5 pt-4"
         >
           <a
-            href="https://github.com/alaminsql"
+            href="https://github.com/alamindev25"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition"

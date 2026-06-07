@@ -82,8 +82,8 @@ export const contactItems = [
   {
     icon: Github,
     label: "GitHub",
-    value: "github.com/alaminsql",
-    href: "https://github.com/alaminsql",
+    value: "github.com/alamindev25",
+    href: "https://github.com/alamindev25",
     color: "text-foreground",
   },
   {
